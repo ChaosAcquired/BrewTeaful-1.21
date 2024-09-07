@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "brewteaful",
+	"version": "${version}",
+	"name": "BrewTeaful",
+	"description": "It's Tea-rrific",
+	"authors": [
+		"ChaosAcquired"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/brewteaful/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.chaosacquired.brewteaful.BrewTeaful"
+		],
+		"fabric-datagen": [
+			"net.chaosacquired.brewteaful.BrewTeafulDataGenerator"
+		],
+		"Client": [
+			"net.chaosacquired.brewteaful.BrewTeafulClient"
+		]
+	},
+	"mixins": [
+		"brewteaful.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
