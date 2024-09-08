@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "mythril_ingot",
+  "ingredient": {
+    "item": "brewteaful:deepslate_silver_ore"
+  },
+  "result": {
+    "id": "brewteaful:silver_ingot"
+  }
+}

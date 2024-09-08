@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "mythril_ingot",
+  "ingredient": {
+    "item": "brewteaful:deepslate_silver_ore"
+  },
+  "result": {
+    "id": "brewteaful:silver_ingot"
+  }
+}

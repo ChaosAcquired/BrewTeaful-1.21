@@ -2,9 +2,15 @@
   "item.brewteaful.mythril_ingot": "Mythril Ingot",
   "item.brewteaful.raw_mythril": "Raw Mythril",
   "item.brewteaful.tea_leaf": "Tea Leaves",
+  "item.brewteaful.silver_ingot": "Silver Ingot",
+  "item.brewteaful.raw_silver": "Raw Silver",
 
   "block.brewteaful.mythril_block": "Block of Mythril",
   "block.brewteaful.mythril_ore": "Mythril Ore",
+  "block.brewteaful.deepslate_mythril_ore": "Deepslate Mythril Ore",
+  "block.brewteaful.silver_ore": "Silver Ore",
+  "block.brewteaful.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.brewteaful.silver_block": "Block of Silver",
 
   "itemgroup.brewteaful.brewteaful_group": "BrewTeaful"
 }

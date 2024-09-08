@@ -19,8 +19,14 @@ public class ModItemGroups {
                         entries.add(ModItems.MYTHRIL_INGOT);
                         entries.add(ModItems.RAW_MYTHRIL);
                         entries.add(ModItems.TEA_LEAF);
+                        entries.add(ModItems.SILVER_INGOT);
+                        entries.add(ModItems.RAW_SILVER);
                         entries.add(ModBlocks.MYTHRIL_ORE);
                         entries.add(ModBlocks.MYTHRIL_BLOCK);
+                        entries.add(ModBlocks.SILVER_BLOCK);
+                        entries.add(ModBlocks.SILVER_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
                     }).build());
 
 

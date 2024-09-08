@@ -12,6 +12,8 @@ public class ModItems {
     public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot", new Item(new Item.Settings()));
     public static final Item RAW_MYTHRIL = registerItem("raw_mythril", new Item(new Item.Settings()));
     public static final Item TEA_LEAF = registerItem("tea_leaf",new Item(new Item.Settings()));
+    public static final Item SILVER_INGOT = registerItem("silver_ingot",new Item(new Item.Settings()));
+    public static final Item RAW_SILVER = registerItem("raw_silver",new Item(new Item.Settings()));
     private  static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(BrewTeaful.MOD_ID, name), item);
     }
@@ -23,6 +25,8 @@ public class ModItems {
             entries.add(MYTHRIL_INGOT);
             entries.add(RAW_MYTHRIL);
             entries.add(TEA_LEAF);
+            entries.add(SILVER_INGOT);
+            entries.add(RAW_SILVER);
         });
     }
 }

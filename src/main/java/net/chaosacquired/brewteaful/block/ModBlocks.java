@@ -22,6 +22,22 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool()));
 
+    public static final Block SILVER_ORE = registerBlock("silver_ore",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool()));
+
+    public static final Block SILVER_BLOCK = registerBlock("silver_block",
+            new Block(AbstractBlock.Settings.create().strength(50f)
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore",
+            new Block(AbstractBlock.Settings.create().strength(50f)
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
+
+    public static final Block DEEPSLATE_MYTHRIL_ORE = registerBlock("deepslate_mythril_ore",
+            new Block(AbstractBlock.Settings.create().strength(50f)
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
+
     public static final Block KETTLE_BLOCK = registerBlock("kettle_block",
             new Block(AbstractBlock.Settings.create().strength(1f)));
 
@@ -41,6 +57,10 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.MYTHRIL_BLOCK);
             entries.add(ModBlocks.MYTHRIL_ORE);
+            entries.add(ModBlocks.SILVER_ORE);
+            entries.add(ModBlocks.SILVER_BLOCK);
+            entries.add(ModBlocks.DEEPSLATE_MYTHRIL_ORE);
+            entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
         });
     }
 }
