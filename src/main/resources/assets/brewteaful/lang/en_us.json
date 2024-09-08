@@ -3,5 +3,8 @@
   "item.brewteaful.raw_mythril": "Raw Mythril",
   "item.brewteaful.tea_leaf": "Tea Leaves",
 
-  "block.brewteaful.mythril_block": "Block of Mythril"
+  "block.brewteaful.mythril_block": "Block of Mythril",
+  "block.brewteaful.mythril_ore": "Mythril Ore",
+
+  "itemgroup.brewteaful.brewteaful_group": "BrewTeaful"
 }
